@@ -1,8 +1,8 @@
 **overview**
 
-These ImageJ macros measure intensity/area in the germplasm or the primordial germ cells (PGC) of the _Drosophila melanogaster_ embryo. 
+These ImageJ macros measure the intensity per area in the germplasm or the primordial germ cells (PGC) of the _Drosophila melanogaster_ embryo. 
 
-Using stage1-2 macros, you can measure automatically.  Using stage4-16 macros, you can set an ROI (region of interest) of a PGC based on the PGC marker stating semi-automatically. 
+Using stage1-2 macros, you can measure it automatically. Using stage4-16 macros, you can create an ROI (region of interest) of a PGC based on the PGC marker staning semi-automatically. 
 
 These macros were designed with z-stack and 4 Ch merge images when I observe whole embryos and take pictures of germplasm or PGC using a confocal microscope. Ch number 1 is DAPI, 2 is DIC, 3 is images of what you want to measure and 4 is Vasa staining (germplasm or PGC marker). If you use these macros, please modify the macros to suit your images.
 
