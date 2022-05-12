@@ -4,7 +4,7 @@ These ImageJ macros measure the intensity per area in the germplasm or the primo
 
 Using stage1-2 macros, you can measure it automatically. Using stage4-16 macros, you can create an ROI (region of interest) of a PGC based on the PGC marker staning semi-automatically. 
 
-These macros were designed with z-stack and 4 Ch merge images when I observe whole embryos and take pictures of germplasm or PGC using a confocal microscope. Ch number 1 is DAPI, 2 is DIC, 3 is images of what you want to measure and 4 is Vasa staining (germplasm or PGC marker). If you use these macros, please modify the macros to suit your images.
+These macros were designed with z-stack and 4 Ch merge images when I observed whole embryos and took pictures of germplasm or PGCs using a confocal microscope. Ch number 1 is DAPI, 2 is DIC, 3 is images of what I want to measure and 4 is Vasa staining (germplasm or PGC marker). If you use these macros, please modify the macros to suit your images.
 
 **stage 1-2**
 
@@ -14,7 +14,7 @@ These macros were designed with z-stack and 4 Ch merge images when I observe who
 **stage 4-16**
 
 1. You open images in ImageJ and run `1_spCH_ver3.ijm`. You can see the Ch1 images, the Ch3 images, the Vasa (Ch4) images and the Ch1, 3, 4 merged images. 
-2. You see the Ch1, 3, 4 merged images and set a slice which you want to measure. Using rectangle selection, you enclose a PGC roughly. Please include the whole PGC. 
+2. You see the Ch1, 3, 4 merged images and set a slice which you want to measure. Using the rectangle selection, you enclose a PGC roughly. Please include the whole PGC. 
 3. You run `2-1_segmentation_ME_ver1.ijm`, and an ROI of PGC will be created and registered to the ROI manager based on the Max Entropy algorithm. 
 
 _If the created ROI is not sufficient, you can create ROI using the machine learning algorithm (weka). See below._
