@@ -7,4 +7,4 @@ These macros were designed with z-stack and 4 Ch merge images when I observe who
 **stage 1-2**
 
 1. You open images in ImageJ and run "1_splitCh_ver1.ijm". You can choose the directory to save intensity data etc. In the directory, the macro makes a new directory named image-name. 
-2. In the “2_measure_germp_ver2.ijm”, you can set the slices which you want to measure. The upper slice number is to “upd_ma” and the lower is to “upd_mx”. When you active the original image-name window, you can run the macro. If you choose the image-name directory, the intensity data will be saved in the directory. 
+2. In the “2_measure_germp_ver2.ijm”, you can set the slices which you want to measure. The upper slice number is to “upd_ma” and the lower is to “upd_mi”. When you active the original image-name window, you can run the macro. If you choose the image-name directory, the intensity data will be saved in the directory. 
