@@ -15,7 +15,7 @@ These macros were designed with z-stack and 4 Ch merge images when I observed wh
 
 1. You open images in ImageJ and run `1_spCH_ver3.ijm`. You can see the Ch1 images, the Ch3 images, the Vasa (Ch4) images and the Ch1, 3, 4 merged images. 
 2. You see the Ch1, 3, 4 merged images and set a slice which you want to measure. Using the rectangle selection, you enclose a PGC roughly. Please include the whole PGC. 
-3. You run `2-1_segmentation_ME_ver1.ijm`, and an ROI of PGC will be created and registered to the ROI manager based on the Max Entropy algorithm. 
+3. You run `2-1_segmentation_ME_ver1.ijm`, and an ROI of PGC will be created and registered to the ROI manager based on the Max Entropy method. 
 
 _If the created ROI is not sufficient, you can create ROI using the machine learning algorithm (weka). See below._
 
